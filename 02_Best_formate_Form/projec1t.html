@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Proper Form</title>
+</head>
+
+<body>
+    <h1><u><span style="background-color: rgb(153, 165, 42);"> Form Project1 </u></span></h1>
+    <form>
+        <section>
+        <fieldset>
+
+            <legend>
+                <h1>Event Registation </h1>
+                </Event>
+            </legend>
+
+            <label for="NAme">Full Name:</label>
+            <input type="text" name=" text" id="Name">
+            <br />
+            <br />
+            <label for="Email">Enter email:</label>
+            <input type="text" name=" email" id="Email">
+            <br />
+            <br />
+
+            <label for="Passwordtype">Password:</label>
+            <input type="password" name=" passwordtype" id="Passwordtype" minlength="8"required >
+            <br />
+            <br />
+
+            <label for="phone no">Phone:</label>
+            <input type="tel:" name=" phone no" id="phone no.">
+            <br />
+            <br />
+
+            <label for="Occupationtype">Occupation</label>
+            <select name="Occupationtype" id="Occupationtype">
+                <option value="student"> Student</option>
+                <option value="professional"> Professional</option>
+                <option value="others"> Others</option>
+            </select>
+
+            <br />
+            <br />
+            <fieldset>
+                <legend>Types of Intrest:</legend>
+
+                <input type="checkbox" name="checkbox2" id="checkbox1">
+                <label for="checkbox1">HTML</label>
+
+                <input type="checkbox" name="checkbox2" id="checkbox1">
+                <label for="checkbox1">CSS</label>
+
+                <input type="checkbox" name="checkbox2" id="checkbox1">
+                <label for="checkbox1">JAVA SCRIPT</label>
+
+            </fieldset>
+            <br />
+            <label for="comments">Comments:</label>
+            <textarea name="text" id=" comments" cols="30" rows="10" placeholder=" enter text here"></textarea>
+            <br />
+            <button>Register</button>
+            <br />
+
+        </fieldset>
+        <br />
+    </section>
+    </form>
+
+    <!----- 2nd form------------>
+
+    <form>
+    <section>
+        <fieldset>
+            <legend><h1>Job Application </h1></legend>
+
+            <label for="Name"> Name (required 8 to 15 character)::</label>
+            <input type="text" name="text" id=" Name (required 8 to 15 character):" maxlength="15" minlength="8">
+            <br />
+            <br />
+            <label for="email"> Email:</label>
+            <input type="text" name="email" id="email" size="20" required>
+            <br />
+            <br />
+            <label for="number"> Phone:</label>
+            <input type="tel" name="Number" id="number">
+            <br />
+            <br />
+            <label for="filetype">resume</label>
+            <input type="file" name="filetype1" id="filetype">
+            <br />
+            <br />
+
+            <label for="counter"> Experience (years):</label>
+            <input type="number" value="counter" id="Counter" min="0" max="50">
+            <br />
+            <br />
+
+            <fieldset>
+                <legend>Skill</legend>
+
+                <input type="checkbox" name="checkbox1" id="C">
+                <label for="C"> HTML</label>
+                <input type="checkbox" name="checkbox1" id="C">
+                <label for="C"> CSS</label>
+                <input type="checkbox" name="checkbox1" id="C">
+                <label for="C"> JS</label>
+            </fieldset>
+
+            <br />
+            <label for="highest education">Highest education</label>
+            <select name=" education" id="highest education">
+                <option value="12"> 12th</option>
+                <option value="bachlor gedree"> Bachlor gedree</option>
+                <option value="phd"> PHD</option>
+                <option value="master degree"> Master degree</option>
+            </select>
+
+            <br />
+            <br />
+            <fieldset>
+                <legend>Avaiability</legend>
+
+
+                <label for="radio2">Full time</label>
+                <input type="radio" name="radio1" id="radio2">
+
+                <label for="radio2">part time</label>
+                <input type="radio" name="radio1" id="radio2">
+            </fieldset>
+
+            <br />
+            <br />
+
+            <label for="comment"> Additional Comments:</label>
+            <textarea name="text" id="comment" cols="30" rows="10" placeholder="text here"></textarea>
+
+            <br />
+            <br />
+            <button>submit</button>
+        </fieldset>
+    </section>
+</form>
+</body>
+</html>
